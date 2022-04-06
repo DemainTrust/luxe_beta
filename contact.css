@@ -1,0 +1,216 @@
+*{
+    box-sizing: border-box;
+    /*border: 1px solid red!important;*/
+}
+
+
+
+/*헤더영역*/
+
+.logo {
+    margin-right: 20vw;
+}
+
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 5px 70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    z-index: 10000;
+    background-color: black;
+}
+
+
+
+header ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header ul li {
+    list-style: none;
+    margin-left: 20px;
+}
+
+.header_nav {
+    text-decoration: none;
+    color: black;
+    background: ghostwhite;
+    opacity: 0.6;
+    padding: 2px;
+    border-radius: 5px;
+}
+
+header ul li a:hover, header ul li a.active {
+
+    color: blue;
+    background: ghostwhite;
+}
+
+/*헤더 끝*/
+
+body{
+    /*padding-top: 80px;*/
+    height: 100%;
+    min-height: 100%;
+
+
+
+
+}
+
+/*본문영역*/
+.main{
+
+    margin: auto;
+    height: 100%;
+    display: block;
+}
+
+.main_title{
+    margin: auto;
+    height: 100vh;
+    background: url("astronut.jpeg") no-repeat;
+    background-size: 100% 100%;
+    /*max-width: 800px;*/
+}
+.main_title_h2{
+    text-align: center;
+    color: #BFC8EA;
+    font-size: 8em;
+    font-family: 'Montserrat Subrayada', sans-serif;
+
+    margin-top: 60px;
+    padding-top: 15vh;
+}
+.contact_text1{
+    padding-top: 20px;
+    text-align: center;
+    color: #BFC8EA;
+    font-family: 'Nova Square', cursive;
+    line-height: 2.5em;
+}
+
+.contact_btn{
+    display: flex;
+    justify-content: center;
+    color: #BFC8EA;
+    margin-top: 5vh;
+
+}
+
+.contact_btn_body{
+    margin: 1vw;
+    width: 10vw;
+    height: 5vh;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 1.3em;
+    line-height: 5vh;
+    background: rgba(75, 86, 128, 0.75);
+    border: 2px red solid;
+
+}
+
+.contact_btn_body a{
+    text-decoration: none;
+}
+
+
+/*푸터영역*/
+.footertitle{
+    font-size: 35px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+footer{
+    background: black;
+    margin:0;
+
+    padding: 0;
+    box-sizing: border-box;
+    width: 100%;
+    font-family: "Noto Sans KR";
+    padding-top: 40px;
+    position: relative;
+    display: block;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.footer_content{
+    color: lightgrey;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    position: relative;
+}
+
+.footer_content h3{
+    font-size: 1.8rem;
+    font-weight: 400;
+    line-height: 3rem;
+}
+
+.footer_content p {
+    max-width: 1000px;
+    margin: 10px auto;
+    line-height: 14px;
+    font-size: 14px;
+    word-spacing: 3px;
+}
+
+.socials{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+}
+
+.socials li{
+    margin: 0 10px;
+}
+
+.socials a {
+    text-decoration: none;
+    color:  lightgrey;
+}
+
+.socials a i {
+    font-size: 1.1rem;
+    transition: color .4s ease;
+
+}
+
+.socials a : hover i{
+    color: greenyellow;
+}
+
+.footer_bottom{
+
+    width: 100vw;
+    padding: 20px 0;
+    text-align: center;
+    color: lightgrey;
+}
+
+.footer_bottom p {
+    font-size: 15px;
+    word-spacing: 3px;
+    text-transform: capitalize;
+}
+/*푸터 끝*/
